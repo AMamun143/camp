@@ -2,7 +2,7 @@ export const BACKPACKS = [
     {
         id: 0,
         name: "Daylite Pack",
-        image: "/assets/images/backp1a.jpg",
+        image: "/assets/images/backpacksimg/backp1a.jpg",
         color: "green camo",
         price: 38,
         featured: false,
@@ -11,7 +11,7 @@ export const BACKPACKS = [
     {
         id: 1,
         name: "Daylite Pack",
-        image: "/assets/images/backp1b.jpg",
+        image: "/assets/images/backpacksimg/backp1b.jpg",
         color: "blue camo",
         price: 38,
         featured: false,
@@ -20,7 +20,7 @@ export const BACKPACKS = [
     {
         id: 2,
         name: "Daylite Pack",
-        image: "/assets/images/backp1c.jpg",
+        image: "/assets/images/backpacksimg/backp1c.jpg",
         color: "black",
         price: 38,
         featured: false,
@@ -29,7 +29,7 @@ export const BACKPACKS = [
     {
         id: 3,
         name: "Bluff Utility Pack",
-        image: "/assets/images/backp2a.jpg",
+        image: "/assets/images/backpacksimg/backp2a.jpg",
         color: "black",
         price: 49,
         featured: false,
@@ -38,7 +38,7 @@ export const BACKPACKS = [
     {
         id: 4,
         name: "Bluff Utility Pack",
-        image: "/assets/images/backp2b.jpg",
+        image: "/assets/images/backpacksimg/backp2b.jpg",
         color: "navy",
         price: 49,
         featured: false,
@@ -47,7 +47,7 @@ export const BACKPACKS = [
     {
         id: 5,
         name: "Bluff Utility Pack",
-        image: "/assets/images/backp2c.jpg",
+        image: "/assets/images/backpacksimg/backp2c.jpg",
         color: "olive",
         price: 49,
         featured: false,
@@ -56,7 +56,7 @@ export const BACKPACKS = [
     {
         id: 6,
         name: "Nine Trails Pack",
-        image: "/assets/images/backp3a.jpg",
+        image: "/assets/images/backpacksimg/backp3a.jpg",
         color: "olive",
         price: 129,
         featured: false,
@@ -65,7 +65,7 @@ export const BACKPACKS = [
     {
         id: 7,
         name: "Nine Trails Pack",
-        image: "/assets/images/backp3b.jpg",
+        image: "/assets/images/backpacksimg/backp3b.jpg",
         color: "grey",
         price: 129,
         featured: false,
@@ -74,7 +74,7 @@ export const BACKPACKS = [
     {
         id: 8,
         name: "Nine Trails Pack",
-        image: "/assets/images/backp3c.jpg",
+        image: "/assets/images/backpacksimg/backp3c.jpg",
         color: "grey/olive",
         price: 129,
         featured: false,
@@ -83,7 +83,7 @@ export const BACKPACKS = [
     {
         id: 9,
         name: "Nine Trails Pack - Camo",
-        image: "/assets/images/backp4a.jpg",
+        image: "/assets/images/backpacksimg/backp4a.jpg",
         color: "green",
         price: 139,
         featured: false,
@@ -92,7 +92,7 @@ export const BACKPACKS = [
     {
         id: 10,
         name: "Nine Trails Pack - Camo",
-        image: "/assets/images/backp4b.jpg",
+        image: "/assets/images/backpacksimg/backp4b.jpg",
         color: "grey",
         price: 139,
         featured: false,
@@ -101,7 +101,7 @@ export const BACKPACKS = [
     {
         id: 11,
         name: "Contender Pack",
-        image: "/assets/images/backp5a.jpg",
+        image: "/assets/images/backpacksimg/backp5a.jpg",
         color: "black",
         price: 89,
         featured: false,

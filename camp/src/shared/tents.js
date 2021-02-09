@@ -2,7 +2,7 @@ export const TENTS = [
     {
         id: 0,
         name: "Ground Breaker",
-        image: "/assets/images/tent1a.jpg",
+        image: "/assets/images/tentsimg/tent1a.jpg",
         color: "green",
         capacity: 2,
         price: 199,
@@ -12,7 +12,7 @@ export const TENTS = [
     {
         id: 1,
         name: "Ground Breaker",
-        image: "/assets/images/tent1b.jpg",
+        image: "/assets/images/tentsimg/tent1b.jpg",
         color: "blue",
         capacity: 2,
         price: 199,
@@ -22,7 +22,7 @@ export const TENTS = [
     {
         id: 2,
         name: "Ground Breaker",
-        image: "/assets/images/tent1c.jpg",
+        image: "/assets/images/tentsimg/tent1c.jpg",
         color: "grey",
         capacity: 2,
         price: 199,
@@ -32,7 +32,7 @@ export const TENTS = [
     {
         id: 3,
         name: "Big Agnes",
-        image: "/assets/images/tent2a.jpg",
+        image: "/assets/images/tentsimg/tent2a.jpg",
         color: "blue",
         capacity: 3,
         price: 349,
@@ -42,7 +42,7 @@ export const TENTS = [
     {
         id: 4,
         name: "Big Agnes",
-        image: "/assets/images/tent2b.jpg",
+        image: "/assets/images/tentsimg/tent2b.jpg",
         color: "green",
         capacity: 3,
         price: 349,
@@ -52,7 +52,7 @@ export const TENTS = [
     {
         id: 5,
         name: "Big Agnes",
-        image: "/assets/images/tent2c.jpg",
+        image: "/assets/images/tentsimg/tent2c.jpg",
         color: "grey",
         capacity: 3,
         price: 349,
@@ -62,7 +62,7 @@ export const TENTS = [
     {
         id: 6,
         name: "Orion III",
-        image: "/assets/images/tent3a.jpg",
+        image: "/assets/images/tentsimg/tent3a.jpg",
         color: "orange",
         capacity: 3,
         price: 450,
@@ -72,7 +72,7 @@ export const TENTS = [
     {
         id: 7,
         name: "Orion III",
-        image: "/assets/images/tent3b.jpg",
+        image: "/assets/images/tentsimg/tent3b.jpg",
         color: "grey",
         capacity: 3,
         price: 450,
@@ -82,7 +82,7 @@ export const TENTS = [
     {
         id: 8,
         name: "Orion III",
-        image: "/assets/images/tent3c.jpg",
+        image: "/assets/images/tentsimg/tent3c.jpg",
         color: "olive",
         capacity: 3,
         price: 450,
@@ -92,7 +92,7 @@ export const TENTS = [
     {
         id: 9,
         name: "Grand Kingdom",
-        image: "/assets/images/tent4a.jpg",
+        image: "/assets/images/tentsimg/tent4a.jpg",
         color: "green",
         capacity: 6,
         price: 739,
@@ -102,7 +102,7 @@ export const TENTS = [
     {
         id: 10,
         name: "Dagger",
-        image: "/assets/images/tent5a.jpg",
+        image: "/assets/images/tentsimg/tent5a.jpg",
         color: "green",
         capacity: 2,
         price: 375,
@@ -112,7 +112,7 @@ export const TENTS = [
     {
         id: 11,
         name: "Dagger",
-        image: "/assets/images/tent5b.jpg",
+        image: "/assets/images/tentsimg/tent5b.jpg",
         color: "blue",
         capacity: 2,
         price: 375,
@@ -122,7 +122,7 @@ export const TENTS = [
     {
         id: 12,
         name: "Hubba Tour",
-        image: "/assets/images/tent6a.jpg",
+        image: "/assets/images/tentsimg/tent6a.jpg",
         color: "orange",
         capacity: 1,
         price: 329,
