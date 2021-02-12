@@ -1,15 +1,11 @@
-import { React } from 'react';
+import React from 'react'
 
-class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return(
-            <div>Home</div>
-        );
-    }
+function HomeComponent() {
+    return (
+        <div>
+            HOMECOMPONENT
+        </div>
+    )
 }
 
-export default Home;
+export default HomeComponent
