@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import MainComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/components/MainComponent.js'
+import MainComponent from '../src/components/MainComponent'
 
 function App() {
   return (

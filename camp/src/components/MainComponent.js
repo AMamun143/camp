@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import AboutComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/pages/about/AboutComponent.js'
-import ContactComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/pages/contact/ContactComponent.js'
-import FooterComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/components/FooterComponent.js'
-import HeaderComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/components/HeaderComponent.js'
-import HomeComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/components/HomeComponent.js'
+import AboutComponent from '../pages/about/AboutComponent.js'
+import ContactComponent from '../pages/contact/ContactComponent.js'
+import FooterComponent from './FooterComponent.js'
+import HeaderComponent from './HeaderComponent.js'
+import HomeComponent from './HomeComponent.js'
 import {BrowserRouter as Router, Switch, Route, Redirect, Link } from 'react-router-dom'
-import ShopComponent from '/Users/mac/Desktop/groupproject/camp/camp/src/pages/shop/ShopComponent.js'
+import ShopComponent from '../pages/shop/ShopComponent'
 
 
 function MainComponent(){
