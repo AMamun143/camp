@@ -1,0 +1,41 @@
+
+.footernav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+
+}
+
+
+.footer-logo{
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Gugi', sans-serif;
+    position: relative;
+    bottom: 1rem;
+    left: 4rem;
+
+}
+
+.FooterItems {
+    background: black;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+a {
+    font-family: "BenchNine", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+

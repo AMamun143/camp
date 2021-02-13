@@ -1,0 +1,12 @@
+.newsletter{
+    font-family: "BenchNine", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: rem;
+    left: 15rem;
+    width: 50%;
+}
+

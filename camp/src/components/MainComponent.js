@@ -16,14 +16,8 @@ function MainComponent(){
 
             
             <Router>
-            <Link to="/home">home</Link> 
-            <Link to="/about">about</Link>
-            <Link to="/contact">contact</Link>
-            <Link to="/shop">shop</Link>
-
             <HeaderComponent />
             
-
             <Switch>
                 <Route exact path="/home" component={HomeComponent} />
                 <Route exact path="/about" component={AboutComponent} />
