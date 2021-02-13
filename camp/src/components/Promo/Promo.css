@@ -1,0 +1,24 @@
+.promo {
+    height: 3rem;
+    background: rgb(17, 17, 17);
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 7rem;
+    font-family: Big Shoulders Display, sans-serif;
+    letter-spacing: 7px;
+    }
+
+
+.text {
+    color: rgb(223, 210, 37);
+    font-size: 2rem;
+    position: relative;
+    top: 17%;
+    align-items: center;
+}
+
+.collection {
+    color: white;
+}
