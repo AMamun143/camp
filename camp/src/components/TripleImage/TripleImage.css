@@ -1,0 +1,48 @@
+img {
+    width: 100%;
+}
+
+img:hover {
+    opacity:0.75;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.wrap {
+    position:relative;
+    bottom: 7rem;
+}
+
+/* row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+@media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.imgWrap {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "BenchNine", sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+  }
+/* 
+.centered:hover {
+    font-style: oblique;
+} */

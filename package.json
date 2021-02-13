@@ -1,0 +1,14 @@
+{
+  "name": "camp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AMamun143/camp.git",
+  "author": "<jerrsiphavong@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react-bootstrap": "^1.4.3",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.9.0"
+  }
+}
