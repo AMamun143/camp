@@ -3,9 +3,7 @@ import TripleImage from "./TripleImage/TripleImage.js";
 
 function TripleImageComponent() {
     return (
-        <div>
          <TripleImage />
-        </div>
     )
 }
 

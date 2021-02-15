@@ -6,7 +6,7 @@ export const TENTS = [
         color: "green",
         capacity: 2,
         price: 199,
-        featured: false,
+        featured: true,
         description: "Whether it's your 1st time or your 50th, the 2-person, 3-season Ground Breaker Tent is a no-frills way to get into camping. It's easy to pitch, durable and has ample ventilation."
     },
     {

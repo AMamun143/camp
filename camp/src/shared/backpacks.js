@@ -5,7 +5,7 @@ export const BACKPACKS = [
         image: "/assets/images/backpacksimg/backp1a.jpg",
         color: "green camo",
         price: 38,
-        featured: false,
+        featured: true,
         description: "Take the Daylite Pack on a one-day hike or a plane trip as your carry-on. A padded harness and simple webbing hipbelt make it easy and comfortable to carry."
     },
     {

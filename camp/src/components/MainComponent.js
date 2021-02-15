@@ -7,17 +7,15 @@ import HomeComponent from './HomeComponent.js'
 import {BrowserRouter as Router, Switch, Route, Redirect, Link } from 'react-router-dom'
 import ShopComponent from '../pages/shop/ShopComponent'
 
-
 function MainComponent(){
 
     return (
         <div>
-     
 
             
             <Router>
             <HeaderComponent />
-            
+
             <Switch>
                 <Route exact path="/home" component={HomeComponent} />
                 <Route exact path="/about" component={AboutComponent} />

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Container, Col, Row, Media } from "reactstrap";
-import Image from "react-bootstrap/Image";
-import backpackmanhome from "./backpackmanhome.png";
-import tenthome from "./tenthome.jpg";
-import sleepingbaghome from "./sleepingbaghome.jpg";
+import backpackmanhome from "../../assets/images/backpackmanhome.png";
+import tenthome from "../../assets/images/tenthome.jpg";
+import sleepingbaghome from "../../assets/images/sleepingbaghome.jpg";
 import "./TrippleImage.css";
 import { Link } from 'react-router-dom';
 import ShopComponent from "../../pages/shop/ShopComponent";
@@ -11,7 +9,6 @@ import ShopComponent from "../../pages/shop/ShopComponent";
 function TripleImageComponent() {
   return (
     <>
-      <div className="row">
       <Link to="/shop">
         <div className="column">
         <div className="imgWrap">
@@ -32,7 +29,6 @@ function TripleImageComponent() {
         </div>
         </div>
         </Link>
-      </div>
     </>
   );
 }

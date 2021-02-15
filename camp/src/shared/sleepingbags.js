@@ -7,7 +7,7 @@ export const SLEEPINGBAGS = [
         temp: 40,
         fill: "down",
         price: 89,
-        featured: false,
+        featured: true,
         description: "The Helio Down 40 sleeping bag is ultralight and packable—ideal for travel, fair-weather camping or as a liner inside another bag to boost warmth on cold nights."
     },
     {
