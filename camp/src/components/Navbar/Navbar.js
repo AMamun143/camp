@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Navbar/Button.js";
-import '/Users/mac/Desktop/groupproject/camp/camp/src/components/Navbar/Button.css'
+import '../Navbar/Button.css'
 import "../Navbar/Navbar.css";
 
 class Navbar extends Component {

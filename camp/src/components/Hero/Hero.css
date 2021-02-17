@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(/Users/mac/Desktop/groupproject/camp/camp/src/components/Hero/hero.jpg);
+    background-image: url(hero.jpg);
     height: 80vh;
     background-size: cover ;
     background-position: center;

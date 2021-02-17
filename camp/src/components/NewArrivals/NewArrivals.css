@@ -37,11 +37,16 @@
 
 
 .photo {
-    background-image: url(/Users/mac/Desktop/groupproject/camp/camp/src/dufflebaghome.png);
+    background-image: url(dufflebaghome.png);
     margin: 0;
     padding: 0;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+p {
+    position: relative;
+    top: 11rem;
 }
