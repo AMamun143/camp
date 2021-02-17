@@ -32,6 +32,13 @@
     bottom: 1rem;
 }
 
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
 a {
     font-family: "BenchNine", sans-serif;
     text-decoration: none;

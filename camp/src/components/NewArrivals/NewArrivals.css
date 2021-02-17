@@ -21,6 +21,7 @@
   
 }
 
+
 .large-text{
     position: relative;
     top: 40%;
@@ -49,4 +50,11 @@
 p {
     position: relative;
     top: 11rem;
+}
+
+p:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
 }

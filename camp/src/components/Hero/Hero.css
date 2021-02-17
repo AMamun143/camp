@@ -9,6 +9,8 @@
     z-index: -1;
 }
 
+
+
 .header {
     position: relative;
     font-family: Big Shoulders Display, sans-serif;
@@ -22,6 +24,7 @@
     font-family: BenchNine, sans-serif;
     color: white;
     top: 50%;
+    z-index: 100;
 
 }
 
@@ -30,4 +33,6 @@
     color: white;
     top: 50%;
     font-size: 3rem;
+    z-index: 10;
 }
+

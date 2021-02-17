@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import {
-  Breadcrumb,
-  BreadcrumbItem,
-  Button,
+
   Form,
   FormGroup,
   Label,
@@ -10,7 +8,7 @@ import {
   Col,
   FormFeedback,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+
 import '../Footer/Newsletter.css'
 
 class Newsletter extends Component {
