@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems";
 import { Button } from "../Navbar/Button.js";
 import '../Navbar/Button.css'
 import "../Navbar/Navbar.css";
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   state = { clicked: false }
@@ -36,9 +37,11 @@ class Navbar extends Component {
         <Button className="user">
         <i class="fas fa-user"></i>
         </Button>
+        <Link to='/cart'>
         <Button className="cart">
         <i class="fas fa-shopping-cart"></i>
         </Button>
+        </Link>
       </nav>
     );
   }

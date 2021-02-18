@@ -8,6 +8,9 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom
 import ShopComponent from '../pages/shop/ShopComponent'
 import NewArrivals from './NewArrivals/NewArrivals'
 import Hero from './Hero/Hero'
+import Cart from '/Users/mac/camp/camp/src/pages/cart/Cart.js'
+
+
 function MainComponent(){
 
     return (
@@ -28,6 +31,7 @@ function MainComponent(){
                 <Route exact path="/shop" component={ShopComponent} />
                 <Route exact path="/shop" component={NewArrivals} />
                 <Route exact path="/shop" component={Hero} />
+                <Route exact path="/cart" component={Cart} />
                 <Redirect to='/home' />
             </Switch>
 
