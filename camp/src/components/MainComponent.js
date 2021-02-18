@@ -15,7 +15,7 @@ function MainComponent(){
 
     return (
         <div>
-     
+   
 
             
             <Router>
@@ -32,9 +32,12 @@ function MainComponent(){
                 <Route exact path="/shop" component={NewArrivals} />
                 <Route exact path="/shop" component={Hero} />
                 <Route exact path="/cart" component={Cart} />
+               
                 <Redirect to='/home' />
+                
             </Switch>
-
+          
+            
             </Router>
             <FooterComponent />
         </div>
