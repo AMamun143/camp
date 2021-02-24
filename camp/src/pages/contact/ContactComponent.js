@@ -1,19 +1,7 @@
 import React, { Component } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  Button,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  Label,
-} from "reactstrap";
+import { Button, Label } from "reactstrap";
 import "./ContactComponent.css";
-import { Link } from "react-router-dom";
 import { Control, LocalForm, Errors } from "react-redux-form";
 
 const required = (val) => val && val.length;
