@@ -10,7 +10,7 @@
     bottom: 7rem;
 }
 
-.new-arrivals {
+.new_arrivals {
 
   background-color: black;  
   bottom: 7rem;
@@ -22,7 +22,7 @@
 }
 
 
-.large-text{
+.large_text{
     position: relative;
     top: 40%;
     font-family: Big Shoulders Display, sans-serif;
@@ -30,7 +30,7 @@
     letter-spacing: 5px;
 }
 
-.small-text {
+.small_text {
     position: relative;
     top: 45%;
     

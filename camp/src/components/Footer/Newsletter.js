@@ -9,7 +9,7 @@ import {
   FormFeedback,
 } from "reactstrap";
 
-import '../Footer/Newsletter.css'
+import styles from '../Footer/Newsletter.module.css'
 
 class Newsletter extends Component {
   constructor(props) {
@@ -66,10 +66,10 @@ class Newsletter extends Component {
       this.state.email
     );
     return (
-        <div className='newsletter'>
-        <h2 className="join">JOIN OUR MAILING LIST</h2>
-        <h5 className="secondjoin">AND NEVER MISS AN UPDATE</h5>
-      <div className="container">
+        <div className={styles.newsletter}>
+        <h2 className={styles.join}>JOIN OUR MAILING LIST</h2>
+        <h5 className={styles.secondjoin}>AND NEVER MISS AN UPDATE</h5>
+      <div className={styles.container}>
             <Form onSubmit={this.handleSubmit}>
               <FormGroup row>
                 <Label htmlFor="email" md={2}>
@@ -92,7 +92,7 @@ class Newsletter extends Component {
             </Form>
           </div>
 
-          <button className="subscribe">Subscribe</button>
+          <button className={styles.subscribe}>Subscribe</button>
 </div>
      
     );

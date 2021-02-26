@@ -1,19 +1,19 @@
 import React from 'react'
-import '../Hero/Hero.css';
+import styles from '../Hero/Hero.module.css';
 import { Link } from 'react-router-dom';
 
 function Hero() {
     return (
         <>
         <Link to="/shop">
-        <div className="hero">
+        <div className={styles.hero}>
            
-           <h1 className="header">PLAN YOUR ADVENTURE</h1> 
+           <h1 className={styles.header}>PLAN YOUR ADVENTURE</h1> 
            
-           <h3 className="shop">SHOP NOW</h3>
+           <h3 className={styles.shop}>SHOP NOW</h3>
            
            
-           <div className="arrow">
+           <div className={styles.arrow}>
           
            <i class="fas fa-chevron-down" />
           

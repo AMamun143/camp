@@ -1,12 +1,12 @@
 import React from 'react'
-import '../Promo/Promo.css'
+import styles from '../Promo/Promo.module.css'
 
 
 function Promo() {
     return (
-        <div className="promo">
-           <div className="text">50% OFF
-           <span className="collection"> ALL SUMMER COLLECTION</span>
+        <div className={styles.promo}>
+           <div className={styles.text}>50% OFF
+           <span className={styles.collection}> ALL SUMMER COLLECTION</span>
            </div>
         </div>
     )

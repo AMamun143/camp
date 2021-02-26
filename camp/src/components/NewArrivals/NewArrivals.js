@@ -1,19 +1,19 @@
 import React from 'react'
-import '../NewArrivals/NewArrivals.css'
+import styles from '../NewArrivals/NewArrivals.module.css'
 import { Link } from 'react-router-dom'
 
 
 function NewArrivals() {
     return (
-        <div class="wrapper">
-        <div className="new-arrivals">
+        <div class={styles.wrapper}>
+        <div className={styles.new_arrivals}>
            
-           <h2 className="large-text">NEW ARRIVALS</h2> 
+           <h2 className={styles.large_text}>NEW ARRIVALS</h2> 
            <Link to="/shop">
           <p>SHOP NOW</p>
           </Link>
         </div>
-        <div className="photo">
+        <div className={styles.photo}>
           
         </div>
         </div>
