@@ -1,11 +1,12 @@
 import React from 'react'
+import Products from '../Products'
 
 function ShopComponent() {
     return (
-        <div>
-            SHOPCOMPONENT
-        </div>
+        <>
+            <Products />
+        </>
     )
 }
 
-export default ShopComponent
+export default ShopComponent;

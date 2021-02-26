@@ -11,6 +11,7 @@ import Tents from '../pages/shop/Tents.js'
 import Backpacks from '../pages/shop/Backpacks.js';
 import Products from '../pages/Products';
 import { productData, productDataThree, productDataTwo } from "../pages/Products/data";
+import RenderProducts from '../pages/Products'
 
 
 function MainComponent(){
@@ -26,13 +27,13 @@ function MainComponent(){
                 <Route exact path="/home" component={HomeComponent} />
                 <Route exact path="/about" component={AboutComponent} />
                 <Route exact path="/contact" component={ContactComponent} />
-                <Route exact path="/shop" component={ShopComponent} />
                 <Route exact path="/backpacks" component={Backpacks} />
                 <Route exact path="/tents" component={Tents} />
                 <Route exact path="/sleepingbags" component={SleepingBags} />
-                <Products heading='BACKPACKS' data={productData} />
+                <Route exact path='/shop' render={() => <Products heading='BACKPACKS' data={productData} />} />
+                {/* <Products heading='BACKPACKS' data={this.props.productData} />
                 <Products heading='TENTS' data={productDataTwo} />
-                <Products heading='SLEEPINGBAGS' data={productDataThree} />
+                <Products heading='SLEEPINGBAGS' data={productDataThree} /> */}
             </Switch>
 
             </Router>
