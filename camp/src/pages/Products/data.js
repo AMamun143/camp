@@ -169,6 +169,7 @@ export const productDataTwo = [
         color: "blue",
         temp: 40,
         fill: "down",
+        button: 'Add to Cart',
         price: 89,
         featured: true,
         description: "The Helio Down 40 sleeping bag is ultralight and packable—ideal for travel, fair-weather camping or as a liner inside another bag to boost warmth on cold nights."
@@ -180,6 +181,7 @@ export const productDataTwo = [
         color: "grey",
         temp: 40,
         fill: "down",
+        button: 'Add to Cart',
         price: 89,
         featured: false,
         description: "The Helio Down 40 sleeping bag is ultralight and packable—ideal for travel, fair-weather camping or as a liner inside another bag to boost warmth on cold nights."
@@ -191,6 +193,7 @@ export const productDataTwo = [
         color: "olive",
         temp: 40,
         fill: "down",
+        button: 'Add to Cart',
         price: 89,
         featured: false,
         description: "The Helio Down 40 sleeping bag is ultralight and packable—ideal for travel, fair-weather camping or as a liner inside another bag to boost warmth on cold nights."
@@ -202,6 +205,7 @@ export const productDataTwo = [
         color: "blue",
         temp: 50,
         fill: "down",
+        button: 'Add to Cart',
         price: 59,
         featured: false,
         description: "A respectable choice for weekend camping, round-the-world adventures or keeping warm on a plane, the Sea to Summit Traveller sleeping bag provides adaptable warmth in a tiny packed size."
@@ -213,6 +217,7 @@ export const productDataTwo = [
         color: "grey/green",
         temp: 50,
         fill: "down",
+        button: 'Add to Cart',
         price: 59,
         featured: false,
         description: "A respectable choice for weekend camping, round-the-world adventures or keeping warm on a plane, the Sea to Summit Traveller sleeping bag provides adaptable warmth in a tiny packed size."
@@ -224,6 +229,7 @@ export const productDataTwo = [
         color: "grey/blue",
         temp: 50,
         fill: "down",
+        button: 'Add to Cart',
         price: 59,
         featured: false,
         description: "A respectable choice for weekend camping, round-the-world adventures or keeping warm on a plane, the Sea to Summit Traveller sleeping bag provides adaptable warmth in a tiny packed size."
@@ -235,6 +241,7 @@ export const productDataTwo = [
         color: "blue",
         temp: 20,
         fill: "recycled polyester",
+        button: 'Add to Cart',
         price: 129,
         featured: false,
         description: "Made from 100% recycled fabrics, The Eco Trail Bed sleeping bag is an affordable, maximum-comfort essential for all your big adventures."
@@ -246,6 +253,7 @@ export const productDataTwo = [
         color: "green",
         temp: 20,
         fill: "recycled polyester",
+        button: 'Add to Cart',
         price: 129,
         featured: false,
         description: "Made from 100% recycled fabrics, The Eco Trail Bed sleeping bag is an affordable, maximum-comfort essential for all your big adventures."
@@ -257,6 +265,7 @@ export const productDataTwo = [
         color: "grey",
         temp: 20,
         fill: "recycled polyester",
+        button: 'Add to Cart',
         price: 129,
         featured: false,
         description: "Made from 100% recycled fabrics, The Eco Trail Bed sleeping bag is an affordable, maximum-comfort essential for all your big adventures."
@@ -268,6 +277,7 @@ export const productDataTwo = [
         color: "blue",
         temp: -15,
         fill: "down",
+        button: 'Add to Cart',
         price: 399,
         featured: false,
         description: "The mummy-style, PFC-free Wind River sleeping bag is what you want to have when the temperatures seriously drop on your next overnight camping trip."
@@ -279,6 +289,7 @@ export const productDataTwo = [
         color: "orange",
         temp: 0,
         fill: "down",
+        button: 'Add to Cart',
         price: 359,
         featured: false,
         description: "A compact down bag for climbers, skiers and backpackers who value warmth and a light pack, the Phantom sleeping bag is ideal for high-alpine traverses and backcountry hut trips."
@@ -290,6 +301,7 @@ export const productDataTwo = [
         color: "khaki",
         temp: 49,
         fill: "spirafil",
+        button: 'Add to Cart',
         price: 49,
         featured: false,
         description: "When space and weight are at a premium on biking trips, kayaking adventures and backpacking treks, the NanoWave sleeping bag easily stuffs into a pannier, stern compartment or pack."
@@ -303,6 +315,7 @@ export const productDataThree = [
         image: tent1a,
         color: "green",
         capacity: 2,
+        button: 'Add to Cart',
         price: 199,
         featured: true,
         description: "Whether it's your 1st time or your 50th, the 2-person, 3-season Ground Breaker Tent is a no-frills way to get into camping. It's easy to pitch, durable and has ample ventilation."
@@ -313,6 +326,7 @@ export const productDataThree = [
         image: tent1b,
         color: "blue",
         capacity: 2,
+        button: 'Add to Cart',
         price: 199,
         featured: false,
         description: "Whether it's your 1st time or your 50th, the 2-person, 3-season Ground Breaker Tent is a no-frills way to get into camping. It's easy to pitch, durable and has ample ventilation."
@@ -323,6 +337,7 @@ export const productDataThree = [
         image: tent1c,
         color: "grey",
         capacity: 2,
+        button: 'Add to Cart',
         price: 199,
         featured: false,
         description: "Whether it's your 1st time or your 50th, the 2-person, 3-season Ground Breaker Tent is a no-frills way to get into camping. It's easy to pitch, durable and has ample ventilation."
@@ -333,6 +348,7 @@ export const productDataThree = [
         image: tent2a,
         color: "blue",
         capacity: 3,
+        button: 'Add to Cart',
         price: 349,
         featured: false,
         description: "With its lightweight design, single-pole system and 2 vestibules to enter and exit efficiently, the Big Agnes tent elevates your backcountry camping experience."
@@ -343,6 +359,7 @@ export const productDataThree = [
         image: tent2b,
         color: "green",
         capacity: 3,
+        button: 'Add to Cart',
         price: 349,
         featured: false,
         description: "With its lightweight design, single-pole system and 2 vestibules to enter and exit efficiently, the Big Agnes tent elevates your backcountry camping experience."
@@ -353,6 +370,7 @@ export const productDataThree = [
         image: tent2c,
         color: "grey",
         capacity: 3,
+        button: 'Add to Cart',
         price: 349,
         featured: false,
         description: "With its lightweight design, single-pole system and 2 vestibules to enter and exit efficiently, the Big Agnes tent elevates your backcountry camping experience."
@@ -363,6 +381,7 @@ export const productDataThree = [
         image: tent3a,
         color: "orange",
         capacity: 3,
+        button: 'Add to Cart',
         price: 450,
         featured: false,
         description: "Letting you switch between modes—Party, Breeze-Way and Storm—to adapt to changing conditions, the Orion III tent is a proven all-weather, all-season 3-person shelter."
@@ -373,6 +392,7 @@ export const productDataThree = [
         image: tent3b,
         color: "grey",
         capacity: 3,
+        button: 'Add to Cart',
         price: 450,
         featured: false,
         description: "Letting you switch between modes—Party, Breeze-Way and Storm—to adapt to changing conditions, the Orion III tent is a proven all-weather, all-season 3-person shelter."
@@ -383,6 +403,7 @@ export const productDataThree = [
         image: tent3c,
         color: "olive",
         capacity: 3,
+        button: 'Add to Cart',
         price: 450,
         featured: false,
         description: "Letting you switch between modes—Party, Breeze-Way and Storm—to adapt to changing conditions, the Orion III tent is a proven all-weather, all-season 3-person shelter."
@@ -393,6 +414,7 @@ export const productDataThree = [
         image: tent4a,
         color: "green",
         capacity: 6,
+        button: 'Add to Cart',
         price: 739,
         featured: false,
         description: "With a large canopy and extra vestibule, the freestanding, weatherproof Marmot Orbit 6-person tent gives you all the extra space you need for changing or storing gear through the storm."
@@ -403,6 +425,7 @@ export const productDataThree = [
         image: tent5a,
         color: "green",
         capacity: 2,
+        button: 'Add to Cart',
         price: 375,
         featured: false,
         description: "Light enough for backpacking yet roomy enough inside to comfortably wait out a rainstorm, the 3-season, 2-person the Dagger tent is a quintessential one-tent wonder."
@@ -413,6 +436,7 @@ export const productDataThree = [
         image: tent5b,
         color: "blue",
         capacity: 2,
+        button: 'Add to Cart',
         price: 375,
         featured: false,
         description: "Light enough for backpacking yet roomy enough inside to comfortably wait out a rainstorm, the 3-season, 2-person the Dagger tent is a quintessential one-tent wonder."
@@ -423,6 +447,7 @@ export const productDataThree = [
         image: tent6a,
         color: "orange",
         capacity: 1,
+        button: 'Add to Cart',
         price: 329,
         featured: false,
         description: "Why subject yourself to a cramped shelter on your epic solo adventures? The roomy Hubba Tour tent lets you luxuriate in livable comfort with plenty of protected space for your gear."
