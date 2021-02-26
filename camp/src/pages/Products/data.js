@@ -20,9 +20,9 @@ import sleepingbag2c from "../../assets/images/sleepingbagsimg/sleeping2c.jpg";
 import sleepingbag3a from "../../assets/images/sleepingbagsimg/sleeping3a.jpg";
 import sleepingbag3b from "../../assets/images/sleepingbagsimg/sleeping3b.jpg";
 import sleepingbag3c from "../../assets/images/sleepingbagsimg/sleeping3c.jpg";
-import sleepingbag4a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-import sleepingbag5a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-import sleepingbag6a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
+import sleepingbag4a from "../../assets/images/sleepingbagsimg/sleeping4a.jpg";
+import sleepingbag5a from "../../assets/images/sleepingbagsimg/sleeping5a.jpg";
+import sleepingbag6a from "../../assets/images/sleepingbagsimg/sleeping6a.jpg";
 
 import tent1a from "../../assets/images/tentsimg/tent1a.jpg";
 import tent1b from "../../assets/images/tentsimg/tent1b.jpg";
