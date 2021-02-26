@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Label } from "reactstrap";
-import "../contact/ContactComponent.css";
+import styles from "../contact/ContactComponent.module.css";
 import { Control, LocalForm, Errors } from "react-redux-form";
 
 const required = (val) => val && val.length;
@@ -30,7 +30,6 @@ class ContactComponent extends Component {
 
   render() {
     return (
-        <div className="contact-wrapper">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 mt-5 text-light pr-md-5">
@@ -43,7 +42,7 @@ class ContactComponent extends Component {
                   name="firstName"
                   id="firstName"
                   placeholder="First Name"
-                  className="form-control bg-black"
+                  className={styles.form_control}
                   validators={{
                     required,
                     minLength: minLength(2),
@@ -70,7 +69,7 @@ class ContactComponent extends Component {
                   name="lastName"
                   id="lastName"
                   placeholder="Last Name"
-                  className="form-control bg-black"
+                  className={styles.form_control}
                   validators={{
                     required,
                     minLength: minLength(2),
@@ -94,7 +93,7 @@ class ContactComponent extends Component {
                 <Control.select
                   model=".subject"
                   name="subject"
-                  className="form-control bg-black"
+                  className={styles.form_control}
                   validators={{
                     required
                   }}
@@ -124,7 +123,7 @@ class ContactComponent extends Component {
                   model=".message"
                   name="message"
                   id="message"
-                  className="form-control bg-black"
+                  className={styles.form_control}
                   validators={{
                     required
                   }}
@@ -140,7 +139,7 @@ class ContactComponent extends Component {
                   }}
                   />
               </div>
-              <Button type="submit" value="submit" id="sendBtn">
+              <Button type="submit" value="submit" id={styles.sendBtn}>
                 Send
               </Button>
             </LocalForm>
@@ -154,7 +153,6 @@ class ContactComponent extends Component {
             <a href={"tel:123-456-7890"}>123-456-7890</a>
           </div>
         </div>
-      </div>
       </div>
     );
   }
