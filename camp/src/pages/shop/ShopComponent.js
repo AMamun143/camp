@@ -1,10 +1,14 @@
 import React from 'react'
+import Products from '../shop/index'
+import '../shop/ProductElement'
 
 function ShopComponent() {
     return (
         <div>
-            SHOPCOMPONENT
+            <Products />
         </div>
+            
+     
     )
 }
 
