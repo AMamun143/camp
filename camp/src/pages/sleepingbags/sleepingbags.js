@@ -1,8 +1,22 @@
-export const SLEEPINGBAGS = [
+import sleepingbag1a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
+import sleepingbag1b from "../../assets/images/sleepingbagsimg/sleeping1b.jpg";
+import sleepingbag1c from "../../assets/images/sleepingbagsimg/sleeping1c.jpg";
+import sleepingbag2a from "../../assets/images/sleepingbagsimg/sleeping2a.jpg";
+import sleepingbag2b from "../../assets/images/sleepingbagsimg/sleeping2b.jpg";
+import sleepingbag2c from "../../assets/images/sleepingbagsimg/sleeping2c.jpg";
+import sleepingbag3a from "../../assets/images/sleepingbagsimg/sleeping3a.jpg";
+import sleepingbag3b from "../../assets/images/sleepingbagsimg/sleeping3b.jpg";
+import sleepingbag3c from "../../assets/images/sleepingbagsimg/sleeping3c.jpg";
+import sleepingbag4a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
+import sleepingbag5a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
+import sleepingbag6a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
+
+
+export const productDateTwo = [
     {
         id: 0,
         name: "Helio Down",
-        image: "/assets/images/sleepingbagsimg/sleeping1a.jpg",
+        image: sleepingbag1a,
         color: "blue",
         temp: 40,
         fill: "down",
@@ -13,7 +27,7 @@ export const SLEEPINGBAGS = [
     {
         id: 1,
         name: "Helio Down",
-        image: "/assets/images/sleepingbagsimg/sleeping1b.jpg",
+        image: sleepingbag1b,
         color: "grey",
         temp: 40,
         fill: "down",
@@ -24,7 +38,7 @@ export const SLEEPINGBAGS = [
     {
         id: 2,
         name: "Helio Down",
-        image: "/assets/images/sleepingbagsimg/sleeping1c.jpg",
+        image: sleepingbag1c,
         color: "olive",
         temp: 40,
         fill: "down",
@@ -35,7 +49,7 @@ export const SLEEPINGBAGS = [
     {
         id: 3,
         name: "Sea to Summit Traveller",
-        image: "/assets/images/sleepingbagsimg/sleeping2a.jpg",
+        image: sleepingbag2a,
         color: "blue",
         temp: 50,
         fill: "down",
@@ -46,7 +60,7 @@ export const SLEEPINGBAGS = [
     {
         id: 4,
         name: "Sea to Summit Traveller",
-        image: "/assets/images/sleepingbagsimg/sleeping2b.jpg",
+        image: sleepingbag2b,
         color: "grey/green",
         temp: 50,
         fill: "down",
@@ -57,7 +71,7 @@ export const SLEEPINGBAGS = [
     {
         id: 5,
         name: "Sea to Summit Traveller",
-        image: "/assets/images/sleepingbagsimg/sleeping2c.jpg",
+        image: sleepingbag2c,
         color: "grey/blue",
         temp: 50,
         fill: "down",
@@ -68,7 +82,7 @@ export const SLEEPINGBAGS = [
     {
         id: 6,
         name: "Eco Trail Bed ",
-        image: "/assets/images/sleepingbagsimg/sleeping3a.jpg",
+        image: sleepingbag3a,
         color: "blue",
         temp: 20,
         fill: "recycled polyester",
@@ -79,7 +93,7 @@ export const SLEEPINGBAGS = [
     {
         id: 7,
         name: "Eco Trail Bed ",
-        image: "/assets/images/sleepingbagsimg/sleeping3b.jpg",
+        image: sleepingbag3b,
         color: "green",
         temp: 20,
         fill: "recycled polyester",
@@ -90,7 +104,7 @@ export const SLEEPINGBAGS = [
     {
         id: 8,
         name: "Eco Trail Bed ",
-        image: "/assets/images/sleepingbagsimg/sleeping3c.jpg",
+        image: sleepingbag3c,
         color: "grey",
         temp: 20,
         fill: "recycled polyester",
@@ -101,7 +115,7 @@ export const SLEEPINGBAGS = [
     {
         id: 9,
         name: "Wind River",
-        image: "/assets/images/sleepingbagsimg/sleeping4a.jpg",
+        image: sleepingbag4a,
         color: "blue",
         temp: -15,
         fill: down,
@@ -112,7 +126,7 @@ export const SLEEPINGBAGS = [
     {
         id: 10,
         name: "Phantom",
-        image: "/assets/images/sleepingbagsimg/sleeping5a.jpg",
+        image: sleepingbag5a,
         color: "orange",
         temp: 0,
         fill: down,
@@ -123,7 +137,7 @@ export const SLEEPINGBAGS = [
     {
         id: 11,
         name: "NanoWave",
-        image: "/assets/images/sleepingbagsimg/sleeping6a.jpg",
+        image: sleepingbag6a,
         color: "khaki",
         temp: 49,
         fill: spirafil,

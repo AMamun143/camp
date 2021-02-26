@@ -37,7 +37,3 @@ row::after {
     transform: translate(-50%, -50%);
     font-size: 45px;
   }
-/* 
-.centered:hover {
-    font-style: oblique;
-} */
