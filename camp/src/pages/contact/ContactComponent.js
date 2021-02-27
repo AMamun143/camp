@@ -32,11 +32,12 @@ class ContactComponent extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6 mt-5 text-light pr-md-5">
+      <div id={styles.contactPage}>
+      <div className={globalStyles.container}>
+        <div className={globalStyles.row}>
+          <div className={cx(globalStyles['col-12'], globalStyles['col-md-6'], globalStyles['mt-5'], globalStyles['text-light'], globalStyles['pr-md-5'])}>
             <LocalForm onSubmit={(values) => this.handleContact(values)}>
-              <div className="form-group">
+              <div className={globalStyles['form-group']}>
               <Label htmlFor="firstName">First Name</Label>
                 <Control.text
                   rows="6"
@@ -44,7 +45,7 @@ class ContactComponent extends Component {
                   name="firstName"
                   id="firstName"
                   placeholder="First Name"
-                  className={styles.form_control}
+                  className={cx(globalStyles['form-control'], styles.formcontrolBlack)}
                   validators={{
                     required,
                     minLength: minLength(2),
@@ -52,7 +53,7 @@ class ContactComponent extends Component {
                   }}
                 />
                 <Errors
-                  className="text-danger"
+                  className={globalStyles["text-danger"]}
                   model=".firstName"
                   show="touched"
                   component="div"
@@ -63,7 +64,7 @@ class ContactComponent extends Component {
                   }}
                 />
               </div>
-              <div className="form-group">
+              <div className={globalStyles['form-group']}>
                 <Label htmlFor="lastName">Last Name</Label>
                 <Control.text
                   rows="6"
@@ -71,7 +72,7 @@ class ContactComponent extends Component {
                   name="lastName"
                   id="lastName"
                   placeholder="Last Name"
-                  className={styles.form_control}
+                  className={cx(globalStyles['form-control'], styles.formcontrolBlack)}
                   validators={{
                     required,
                     minLength: minLength(2),
@@ -79,7 +80,7 @@ class ContactComponent extends Component {
                   }}
                 />
                 <Errors
-                  className="text-danger"
+                  className={globalStyles["text-danger"]}
                   model=".lastName"
                   show="touched"
                   component="div"
@@ -90,12 +91,12 @@ class ContactComponent extends Component {
                   }}
                 />
               </div>
-              <div className="form-group">
+              <div className={globalStyles['form-group']}>
                 <Label htmlFor="subject">Choose a Subject</Label>
                 <Control.select
                   model=".subject"
                   name="subject"
-                  className={styles.form_control}
+                  className={cx(globalStyles['form-control'], styles.formcontrolBlack)}
                   validators={{
                     required
                   }}
@@ -110,7 +111,7 @@ class ContactComponent extends Component {
                   <option>Other</option>
                 </Control.select>
                 <Errors
-                  className="text-danger"
+                  className={globalStyles["text-danger"]}
                   model=".subject"
                   show="touched"
                   component="div"
@@ -119,20 +120,20 @@ class ContactComponent extends Component {
                   }}
                   />
               </div>
-              <div className="form-group">
+              <div className={globalStyles['form-group']}>
                 <Label htmlFor="message">Enter Your Message</Label>
                 <Control.textarea
                   model=".message"
                   name="message"
                   id="message"
-                  className={styles.form_control}
+                  className={cx(globalStyles['form-control'], styles.formcontrolBlack)}
                   validators={{
                     required
                   }}
                   innerRef={(input) => (this.message = input)}
                 />
                 <Errors
-                  className="text-danger"
+                  className={globalStyles["text-danger"]}
                   model=".message"
                   show="touched"
                   component="div"
@@ -146,15 +147,16 @@ class ContactComponent extends Component {
               </Button>
             </LocalForm>
           </div>
-          <div className="col-12 col-md-6 text-light mt-5 pl-md-5 order-first order-md-last">
+          <div className={cx(globalStyles['col-12'], globalStyles['col-md-6'], globalStyles['text-light'], globalStyles['mt-5'], globalStyles['pl-md-5'], globalStyles['order-first'], globalStyles['order-md-last'])}>
           <h1>CONTACT</h1>
             <p>
               Have any questions? We'd love to hear from you. Get in touch if you have technical, account, or billing questions.
             </p>
-            <a href={"mailto:info@djass.com"}>info@djass.com</a><br/>
-            <a href={"tel:123-456-7890"}>123-456-7890</a>
+            <a className={styles.contactLinks} href={"mailto:info@dj.com"}>info@dj.com</a><br/>
+            <a className={styles.contactLinks} href={"tel:123-456-7890"}>123-456-7890</a>
           </div>
         </div>
+      </div>
       </div>
     );
   }
