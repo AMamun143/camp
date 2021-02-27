@@ -2,6 +2,8 @@ import React, { Component } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Label } from "reactstrap";
 import styles from "../contact/ContactComponent.module.css";
+import globalStyles from '../../../src/assets/global-styles/bootstrap.min.module.css';
+import cx from 'classnames';
 import { Control, LocalForm, Errors } from "react-redux-form";
 
 const required = (val) => val && val.length;
