@@ -8,7 +8,7 @@ function Hero() {
         <Link to="/shop">
         <div className={styles.hero}>
            
-           <h1 className={styles.header}>PLAN YOUR ADVENTURE</h1> 
+           <h1 className={styles.header_hero}>PLAN YOUR ADVENTURE</h1> 
            
            <h3 className={styles.shop}>SHOP NOW</h3>
            

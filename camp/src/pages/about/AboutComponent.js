@@ -3,7 +3,7 @@ import styles from './AboutComponent.module.css';
 
 function AboutComponent() {
     return (
-        <div className="" id="about">
+        <div className="" id={styles.about}>
            <div className="row h-100">
                <div className="col h-100 p-5" id={styles.about_text}>
                     <h2 className="text-light">About Us</h2>

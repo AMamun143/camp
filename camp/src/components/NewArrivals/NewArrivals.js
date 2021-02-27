@@ -10,7 +10,7 @@ function NewArrivals() {
            
            <h2 className={styles.large_text}>NEW ARRIVALS</h2> 
            <Link to="/shop">
-          <p>SHOP NOW</p>
+          <p className={styles.shop_now}>SHOP NOW</p>
           </Link>
         </div>
         <div className={styles.photo}>

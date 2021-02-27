@@ -11,12 +11,13 @@
 
 
 
-.header {
+.header_hero {
     position: relative;
     font-family: Big Shoulders Display, sans-serif;
     font-size: 4rem;
     color: white;
     top: 40%;
+    
 
 }
 .shop {

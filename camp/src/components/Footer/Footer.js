@@ -20,7 +20,7 @@ class Footer extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className="pages" href={item.url}>
+                <a className={styles.pages} href={item.url}>
                   {item.title1}
                 </a>
               </li>

@@ -47,12 +47,15 @@
     background-position: center;
 }
 
-p {
+.shop_now {
     position: relative;
     top: 11rem;
+    text-decoration: none;
+    color: white;
+    
 }
 
-p:hover {
+.shop_now:hover {
     background-color: white;
     color: black;
     border-radius: 4px;
