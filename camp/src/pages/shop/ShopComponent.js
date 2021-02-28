@@ -1,11 +1,16 @@
 import React from 'react'
-import Products from '../Products'
+import Products from './Context'
+
+
 
 function ShopComponent() {
     return (
         <>
             <Products />
+          
         </>
+            
+     
     )
 }
 

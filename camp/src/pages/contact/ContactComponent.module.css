@@ -1,0 +1,33 @@
+.formcontrolBlack {
+  background-color: black;
+}
+
+#sendBtn {
+  background-color: black;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+  float: right;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.contactLinks {
+  color: white;
+  text-decoration: none;
+}
+
+.contactLinks:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+#contactPage {
+  height: 90vh;
+  width: 100vw;
+}
