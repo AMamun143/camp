@@ -1,35 +1,39 @@
-import React, { Component } from "react";
-import backpackmanhome from "../../assets/images/backpackmanhome.png";
-import tenthome from "../../assets/images/tenthome.jpg";
-import sleepingbaghome from "../../assets/images/sleepingbaghome.jpg";
-import "./TrippleImage.css";
-import { Link } from 'react-router-dom';
-import ShopComponent from "../../pages/shop/ShopComponent";
+import React from "react";
+
+import backpackmanhome from "./backpackmanhome.png";
+import tenthome from "./tenthome.jpg";
+import sleepingbaghome from "./sleepingbaghome.jpg";
+import styles from "./TripleImage.module.css";
+import { Link } from "react-router-dom";
 
 function TripleImageComponent() {
   return (
-    <>
-      <Link to="/shop">
-        <div className="column">
-        <div className="imgWrap">
-          <img src={backpackmanhome} alt="backpack" />
-          <div className="centered">Backpacks</div>
+    
+    <div className={styles.wrap}>
+      <div className={styles.row}>
+        <Link to="/shop">
+          <div className={styles.column}>
+            <div className={styles.imgWrap}>
+              <img src={backpackmanhome} alt="backpack" />
+              <div className={styles.centered}>Backpacks</div>
+            </div>
           </div>
-        </div>
-        <div className="column">
-          <div className="imgWrap">
-            <img src={tenthome} alt="tent" />
-            <div className="centered">Tents</div>
+          <div className={styles.column}>
+            <div className={styles.imgWrap}>
+              <img src={tenthome} alt="tent" />
+              <div className={styles.centered}>Tents</div>
+            </div>
           </div>
-        </div>
-        <div className="column">
-        <div className="imgWrap">
-          <img src={sleepingbaghome} alt="sleepingbag" />
-          <div className="centered">Sleeping Bags</div>
-        </div>
-        </div>
+          <div className={styles.column}>
+            <div className={styles.imgWrap}>
+              <img src={sleepingbaghome} alt="sleepingbag" />
+              <div className={styles.centered}>Sleeping Bags</div>
+            </div>
+          </div>
         </Link>
-    </>
+      </div>
+    </div>
+    
   );
 }
 

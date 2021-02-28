@@ -1,12 +1,12 @@
 import React from 'react'
-import Footer from "./Footer/Footer.js";
+import Footer from './Footer/Footer.js'
 
 function FooterComponent() {
     return (
         <div>
-         <Footer />
+        <Footer />
         </div>
     )
 }
 
-export default FooterComponent;
+export default FooterComponent

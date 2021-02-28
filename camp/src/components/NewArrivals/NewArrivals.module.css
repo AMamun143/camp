@@ -1,0 +1,73 @@
+.wrapper {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 7rem;
+    
+}
+
+
+
+.new_arrivals {
+
+  background-color: black;  
+  bottom: 7rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.large_text{
+    position: relative;
+    top: 40%;
+    font-family: Big Shoulders Display, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+
+
+.small_text {
+    position: relative;
+    top: 45%;
+    
+}
+
+
+.photo {
+    background-image: url(dufflebaghome.png);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shop_now {
+    position: relative;
+    top: 11rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.shop_now:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+.shop_link {
+    text-decoration: none;
+}

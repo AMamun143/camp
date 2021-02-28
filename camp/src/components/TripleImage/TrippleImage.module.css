@@ -10,8 +10,13 @@ img:hover {
     float: left;
     width: 33.33%;
 }
-/* 
-row::after {
+
+.wrap {
+    position:relative;
+    bottom: 7rem;
+}
+
+/* row::after {
     content: "";
     clear: both;
     display: table;
@@ -37,3 +42,7 @@ row::after {
     transform: translate(-50%, -50%);
     font-size: 45px;
   }
+/* 
+.centered:hover {
+    font-style: oblique;
+} */
