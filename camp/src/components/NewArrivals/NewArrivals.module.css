@@ -8,7 +8,10 @@
     padding: 0;
     position: relative;
     bottom: 7rem;
+    
 }
+
+
 
 .new_arrivals {
 
@@ -29,6 +32,8 @@
     font-size: 3rem;
     letter-spacing: 5px;
 }
+
+
 
 .small_text {
     position: relative;
@@ -60,4 +65,13 @@
     color: black;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    text-decoration: none;
 }
+
+.shop_link {
+    text-decoration: none;
+}
+
+
+
+

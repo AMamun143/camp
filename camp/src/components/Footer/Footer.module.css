@@ -13,7 +13,6 @@
 .wrap {
     height: 10vh;
     position: relative;
-   
     bottom: 7rem;
     
 }
@@ -41,6 +40,7 @@
     color: black;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    text-decoration: none;
 }
 
 .pages {

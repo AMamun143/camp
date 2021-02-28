@@ -3,8 +3,8 @@ import styles from './Cart.module.css';
 
 function Cart() {
     return (
-        <div className={styles.cart}>
-           CART
+        <div className={styles.cart_wrapper}>
+           Cart 
         </div>
     )
 }

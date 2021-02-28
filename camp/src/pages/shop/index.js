@@ -13,6 +13,7 @@ import {
 } from '../shop/ProductElement';
 import "../shop/Data";
 
+
 const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>

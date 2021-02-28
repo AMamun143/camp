@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function TripleImageComponent() {
   return (
+    
     <div className={styles.wrap}>
       <div className={styles.row}>
         <Link to="/shop">
@@ -32,6 +33,7 @@ function TripleImageComponent() {
         </Link>
       </div>
     </div>
+    
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import AboutComponent from "../pages/about/AboutComponent.js";
 import ContactComponent from "../pages/contact/ContactComponent.js";
 import FooterComponent from "./FooterComponent.js";
@@ -29,7 +29,7 @@ function MainComponent() {
           <Route exact path="/home" component={HomeComponent} />
           <Route exact path="/about" component={AboutComponent} />
           <Route exact path="/contact" component={ContactComponent} />
-
+          
           <Route
             exact
             path="/shop"

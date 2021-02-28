@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Hero() {
     return (
         <>
-        <Link to="/shop">
+        <Link className={styles.link_hero} to="/shop">
         <div className={styles.hero}>
            
            <h1 className={styles.header_hero}>PLAN YOUR ADVENTURE</h1> 
