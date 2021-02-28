@@ -6,6 +6,7 @@ export const ProductsContainer = styled.div`
   padding: 5rem calc((100vw - 1300px) / 2);
   background: black;
   color: #fff;
+  margin-bottom: 5rem;
 `;
 
 export const ProductWrapper = styled.div`
@@ -64,7 +65,6 @@ export const ProductButton = styled.button`
   color: black;
   transition: 0.2 ease-out;
   font-weight: bold;
-
   &:hover {
     background: grey;
     transition: 0.2s ease-out;

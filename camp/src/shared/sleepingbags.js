@@ -1,33 +1,19 @@
-import sleepingbag1a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-import sleepingbag1b from "../../assets/images/sleepingbagsimg/sleeping1b.jpg";
-import sleepingbag1c from "../../assets/images/sleepingbagsimg/sleeping1c.jpg";
-import sleepingbag2a from "../../assets/images/sleepingbagsimg/sleeping2a.jpg";
-import sleepingbag2b from "../../assets/images/sleepingbagsimg/sleeping2b.jpg";
-import sleepingbag2c from "../../assets/images/sleepingbagsimg/sleeping2c.jpg";
-import sleepingbag3a from "../../assets/images/sleepingbagsimg/sleeping3a.jpg";
-import sleepingbag3b from "../../assets/images/sleepingbagsimg/sleeping3b.jpg";
-import sleepingbag3c from "../../assets/images/sleepingbagsimg/sleeping3c.jpg";
-import sleepingbag4a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-import sleepingbag5a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-import sleepingbag6a from "../../assets/images/sleepingbagsimg/sleeping1a.jpg";
-
-
-export const productDateTwo = [
+export const SLEEPINGBAGS = [
     {
         id: 0,
         name: "Helio Down",
-        image: sleepingbag1a,
+        image: "/assets/images/sleepingbagsimg/sleeping1a.jpg",
         color: "blue",
         temp: 40,
         fill: "down",
         price: 89,
-        featured: true,
+        featured: false,
         description: "The Helio Down 40 sleeping bag is ultralight and packable—ideal for travel, fair-weather camping or as a liner inside another bag to boost warmth on cold nights."
     },
     {
         id: 1,
         name: "Helio Down",
-        image: sleepingbag1b,
+        image: "/assets/images/sleepingbagsimg/sleeping1b.jpg",
         color: "grey",
         temp: 40,
         fill: "down",
@@ -38,7 +24,7 @@ export const productDateTwo = [
     {
         id: 2,
         name: "Helio Down",
-        image: sleepingbag1c,
+        image: "/assets/images/sleepingbagsimg/sleeping1c.jpg",
         color: "olive",
         temp: 40,
         fill: "down",
@@ -49,7 +35,7 @@ export const productDateTwo = [
     {
         id: 3,
         name: "Sea to Summit Traveller",
-        image: sleepingbag2a,
+        image: "/assets/images/sleepingbagsimg/sleeping2a.jpg",
         color: "blue",
         temp: 50,
         fill: "down",
@@ -60,7 +46,7 @@ export const productDateTwo = [
     {
         id: 4,
         name: "Sea to Summit Traveller",
-        image: sleepingbag2b,
+        image: "/assets/images/sleepingbagsimg/sleeping2b.jpg",
         color: "grey/green",
         temp: 50,
         fill: "down",
@@ -71,7 +57,7 @@ export const productDateTwo = [
     {
         id: 5,
         name: "Sea to Summit Traveller",
-        image: sleepingbag2c,
+        image: "/assets/images/sleepingbagsimg/sleeping2c.jpg",
         color: "grey/blue",
         temp: 50,
         fill: "down",
@@ -82,7 +68,7 @@ export const productDateTwo = [
     {
         id: 6,
         name: "Eco Trail Bed ",
-        image: sleepingbag3a,
+        image: "/assets/images/sleepingbagsimg/sleeping3a.jpg",
         color: "blue",
         temp: 20,
         fill: "recycled polyester",
@@ -93,7 +79,7 @@ export const productDateTwo = [
     {
         id: 7,
         name: "Eco Trail Bed ",
-        image: sleepingbag3b,
+        image: "/assets/images/sleepingbagsimg/sleeping3b.jpg",
         color: "green",
         temp: 20,
         fill: "recycled polyester",
@@ -104,7 +90,7 @@ export const productDateTwo = [
     {
         id: 8,
         name: "Eco Trail Bed ",
-        image: sleepingbag3c,
+        image: "/assets/images/sleepingbagsimg/sleeping3c.jpg",
         color: "grey",
         temp: 20,
         fill: "recycled polyester",
@@ -115,7 +101,7 @@ export const productDateTwo = [
     {
         id: 9,
         name: "Wind River",
-        image: sleepingbag4a,
+        image: "/assets/images/sleepingbagsimg/sleeping4a.jpg",
         color: "blue",
         temp: -15,
         fill: down,
@@ -126,7 +112,7 @@ export const productDateTwo = [
     {
         id: 10,
         name: "Phantom",
-        image: sleepingbag5a,
+        image: "/assets/images/sleepingbagsimg/sleeping5a.jpg",
         color: "orange",
         temp: 0,
         fill: down,
@@ -137,7 +123,7 @@ export const productDateTwo = [
     {
         id: 11,
         name: "NanoWave",
-        image: sleepingbag6a,
+        image: "/assets/images/sleepingbagsimg/sleeping6a.jpg",
         color: "khaki",
         temp: 49,
         fill: spirafil,

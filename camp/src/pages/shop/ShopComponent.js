@@ -14,4 +14,4 @@ function ShopComponent() {
     )
 }
 
-export default ShopComponent;
+export default ShopComponent

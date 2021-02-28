@@ -1,32 +1,18 @@
-import tent1a from "../../assets/images/tentsimg/tent1a.jpg";
-import tent1b from "../../assets/images/tentsimg/tent1b.jpg";
-import tent1c from "../../assets/images/tentsimg/tent1c.jpg";
-import tent2a from "../../assets/images/tentsimg/tent2a.jpg";
-import tent2b from "../../assets/images/tentsimg/tent2b.jpg";
-import tent2c from "../../assets/images/tentsimg/tent2c.jpg";
-import tent3a from "../../assets/images/tentsimg/tent3a.jpg";
-import tent3b from "../../assets/images/tentsimg/tent3b.jpg";
-import tent3c from "../../assets/images/tentsimg/tent3c.jpg";
-import tent4a from "../../assets/images/tentsimg/tent4a.jpg";
-import tent5a from "../../assets/images/tentsimg/tent5a.jpg";
-import tent5b from "../../assets/images/tentsimg/tent5b.jpg";
-import tent6a from "../../assets/images/tentsimg/tent6a.jpg";
-
-export const productDataThree = [
+export const TENTS = [
     {
         id: 0,
         name: "Ground Breaker",
-        image: tent1a,
+        image: "/assets/images/tentsimg/tent1a.jpg",
         color: "green",
         capacity: 2,
         price: 199,
-        featured: true,
+        featured: false,
         description: "Whether it's your 1st time or your 50th, the 2-person, 3-season Ground Breaker Tent is a no-frills way to get into camping. It's easy to pitch, durable and has ample ventilation."
     },
     {
         id: 1,
         name: "Ground Breaker",
-        image: tent1b,
+        image: "/assets/images/tentsimg/tent1b.jpg",
         color: "blue",
         capacity: 2,
         price: 199,
@@ -36,7 +22,7 @@ export const productDataThree = [
     {
         id: 2,
         name: "Ground Breaker",
-        image: tent1c,
+        image: "/assets/images/tentsimg/tent1c.jpg",
         color: "grey",
         capacity: 2,
         price: 199,
@@ -46,7 +32,7 @@ export const productDataThree = [
     {
         id: 3,
         name: "Big Agnes",
-        image: tent2a,
+        image: "/assets/images/tentsimg/tent2a.jpg",
         color: "blue",
         capacity: 3,
         price: 349,
@@ -56,7 +42,7 @@ export const productDataThree = [
     {
         id: 4,
         name: "Big Agnes",
-        image: tent2b,
+        image: "/assets/images/tentsimg/tent2b.jpg",
         color: "green",
         capacity: 3,
         price: 349,
@@ -66,7 +52,7 @@ export const productDataThree = [
     {
         id: 5,
         name: "Big Agnes",
-        image: tent2c,
+        image: "/assets/images/tentsimg/tent2c.jpg",
         color: "grey",
         capacity: 3,
         price: 349,
@@ -76,7 +62,7 @@ export const productDataThree = [
     {
         id: 6,
         name: "Orion III",
-        image: tent3a,
+        image: "/assets/images/tentsimg/tent3a.jpg",
         color: "orange",
         capacity: 3,
         price: 450,
@@ -86,7 +72,7 @@ export const productDataThree = [
     {
         id: 7,
         name: "Orion III",
-        image: tent3b,
+        image: "/assets/images/tentsimg/tent3b.jpg",
         color: "grey",
         capacity: 3,
         price: 450,
@@ -96,7 +82,7 @@ export const productDataThree = [
     {
         id: 8,
         name: "Orion III",
-        image: tent3c,
+        image: "/assets/images/tentsimg/tent3c.jpg",
         color: "olive",
         capacity: 3,
         price: 450,
@@ -106,7 +92,7 @@ export const productDataThree = [
     {
         id: 9,
         name: "Grand Kingdom",
-        image: tent4a,
+        image: "/assets/images/tentsimg/tent4a.jpg",
         color: "green",
         capacity: 6,
         price: 739,
@@ -116,7 +102,7 @@ export const productDataThree = [
     {
         id: 10,
         name: "Dagger",
-        image: tent5a,
+        image: "/assets/images/tentsimg/tent5a.jpg",
         color: "green",
         capacity: 2,
         price: 375,
@@ -126,7 +112,7 @@ export const productDataThree = [
     {
         id: 11,
         name: "Dagger",
-        image: tent5b,
+        image: "/assets/images/tentsimg/tent5b.jpg",
         color: "blue",
         capacity: 2,
         price: 375,
@@ -136,7 +122,7 @@ export const productDataThree = [
     {
         id: 12,
         name: "Hubba Tour",
-        image: tent6a,
+        image: "/assets/images/tentsimg/tent6a.jpg",
         color: "orange",
         capacity: 1,
         price: 329,
