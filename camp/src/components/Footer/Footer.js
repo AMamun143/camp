@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "../Navbar/MenuItems.js";
-import "../Footer/Footer.css";
+import styles from "../Footer/Footer.module.css";
 import Newsletter from '../Footer/Newsletter.js';
 
 class Footer extends Component {
@@ -8,19 +8,19 @@ class Footer extends Component {
 
   render() {
     return (
-        <>
- 
-        <div className="spacing"></div>
-      <nav className="FooterItems">
-        <h1 className="footer-logo">
+        <div className={styles.wrap}>
+        
+    
+      <nav className={styles.FooterItems}>
+        <h1 className={styles.footer_logo}>
           <pre>CA</pre>MP
         </h1>
         <Newsletter />
-        <ul className="footernav-menu">
+        <ul className={styles.footernav_menu}>
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className="pages" href={item.url}>
+                <a className={styles.pages} href={item.url}>
                   {item.title1}
                 </a>
               </li>
@@ -29,10 +29,10 @@ class Footer extends Component {
         </ul>
        
       </nav>
-      </>
+      </div>
     );
   }
 }
 
 
-export default Footer
+export default Footer;

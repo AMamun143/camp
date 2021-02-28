@@ -4,9 +4,14 @@
     justify-content: center;
     text-align: center;
     color: white;
-    position: relative;
-    bottom: rem;
-    left: 15rem;
-    width: 50%;
+    overflow-x: hidden;
+ 
 }
 
+.subscribe {
+    background: black;
+    color: white;
+    text-decoration: none;
+    border:  white;
+
+}
