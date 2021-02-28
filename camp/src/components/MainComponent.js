@@ -12,12 +12,8 @@ import {
   Link,
 } from "react-router-dom";
 import Cart from '../pages/cart/Cart'
-import Products from "../pages/shop/index";
-import {
-  productData,
-  productDataThree,
-  productDataTwo,
-} from "../pages/shop/Data";
+
+
 
 function MainComponent() {
   return (
@@ -30,17 +26,7 @@ function MainComponent() {
           <Route exact path="/about" component={AboutComponent} />
           <Route exact path="/contact" component={ContactComponent} />
           
-          <Route
-            exact
-            path="/shop"
-            render={() => (
-              <>
-                <Products heading="BACKPACKS" data={productData} />
-                <Products heading="SLEEPINGBAGS" data={productDataTwo} />
-                <Products heading="TENTS" data={productDataThree} />{" "}
-              </>
-            )}
-          />
+         
           <Route exact path='/cart' component={Cart} />
         </Switch>
       </Router>
