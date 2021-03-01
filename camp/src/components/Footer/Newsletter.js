@@ -72,10 +72,7 @@ class Newsletter extends Component {
       <div className={styles.container}>
             <Form onSubmit={this.handleSubmit}>
               <FormGroup row>
-                <Label htmlFor="email" md={2}>
-                  Enter your email here
-                </Label>
-                <Col md={10}>
+                <Col md={12}>
                   <Input
                     type="email"
                     id="email"
@@ -92,7 +89,7 @@ class Newsletter extends Component {
             </Form>
           </div>
 
-          <button className={styles.subscribe}>Subscribe</button>
+          <div className={styles.subscribe}>Subscribe</div>
 </div>
      
     );

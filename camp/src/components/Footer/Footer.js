@@ -13,7 +13,7 @@ class Footer extends Component {
     
       <nav className={styles.FooterItems}>
         <h1 className={styles.footer_logo}>
-          <pre>CA</pre>MP
+          <pre className={styles.ca}>CA</pre>MP
         </h1>
         <Newsletter />
         <ul className={styles.footernav_menu}>

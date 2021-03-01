@@ -22,7 +22,21 @@
     bottom: 6px;
 }
 
-pre {
+i{
+    color: white;
+    text-decoration: none;
+    outline: none;
+    word-spacing: 3px;
+    position: relative;
+    bottom: 3px;
+    font-size: 1.5rem;
+}
+
+i:hover{
+   color: black;
+}
+
+.pre {
     font-family: 'Gugi', sans-serif;
     position: relative;
     top: 29px;
@@ -80,7 +94,9 @@ pre {
 
     }
 
-   
+    .buttons{
+        display: none;
+    }
 
     .nav-menu {
         display: flex;
@@ -173,7 +189,7 @@ pre {
 }
 
 span{
-    color: white;
+    color: black;
     padding-left: 5px;
     font-size: 14px;
 }

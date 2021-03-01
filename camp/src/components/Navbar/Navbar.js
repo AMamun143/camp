@@ -3,31 +3,26 @@ import { MenuItems } from "./MenuItems";
 import { Button } from "../Navbar/Button.js";
 import "../Navbar/Navbar.css";
 import { Link } from 'react-router-dom';
-import LoginModal from '../../pages/signIn/SignInComponent'
+import {SignInModal} from '../../pages/signIn/SignInComponent'
 
 class Navbar extends Component {
   state = { 
     clicked: false,
-    modalOpen: false
+    addModalShow: false
    }
 
   handleClick = () => {
     
     this.setState({ clicked: !this.state.clicked })
   }
-  handleModalOpen = () => {
-    this.setState((prevState) => {
-       return{
-          modalOpen: !prevState.modalOpen
-       }
-    })
- }
+
   render() {
+    let addModalClose = () => this.setState({addModalShow: false});
     return (
       <>
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          <pre>CA</pre>MP
+          <pre className="pre">CA</pre>MP
         </h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i
@@ -45,19 +40,22 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        <Button onClick={this.handleModalOpen} className="user">
-        <i class="fas fa-user"></i>
+        <div className="buttons">
+        <Button onClick={() => this.setState({addModalShow: true})} className="user">
+        <i class="fas fa-user" ></i>
         </Button>
+        <SignInModal
+           show={this.state.addModalShow}
+           onHide={addModalClose} />
         <Link to='/cart'>
         <Button className="cart">
-        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-shopping-cart" ></i>
         </Button>
+
         </Link>
+        </div>
       </nav>
-      <LoginModal
-           modalOpen={this.state.modalOpen}
-           handleModalOpen={this.handleModalOpen}
-        />
+
       </>
     );
   }

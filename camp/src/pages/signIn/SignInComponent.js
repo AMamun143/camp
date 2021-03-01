@@ -1,76 +1,55 @@
-import React from "react";
-import Modal from "react-bootstrap/Modal";
+import React, { Component } from "react";
+import { Modal, Button, Row, Col, Form, Container } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import styled from "styled-components";
-import "../signIn/Modal.css";
-
-const ModalContent = styled.div`
-  display: flex;
-  z-index: 1000;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.8;
-  color: white;
- 
-  button {
-    padding: 5px 10px;
-    height: 2rem;
-    background: rgb(43, 42, 42);
-    color: #fff;
-    border: none;
-    position: relative;
-    bottom: 3rem;
+export class SignInModal extends Component {
+  constructor(props) {
+    super(props);
   }
-  label {
-      font-size: 13px;
-      position: relative;
-      bottom: 2.5rem;
-  }
-  input {
-      position: relative;
-      bottom: 3rem;
-      height: 2rem;
-  }
-`;
-
-
-
-const LoginModal = (props) => {
-  return (
-    <div className="modal">
-      <Modal show={props.modalOpen} onHide={props.handleModalOpen}>
-        <Modal.Header closeButton className="close">
-          
+  render() {
+    return (
+  
+        
+      <Modal
+        {...this.props}
+        size="md"
+        
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header  className="bg-dark">
+          <Modal.Title id="contained-modal-title-vcenter" className="text-white">Log In</Modal.Title>
         </Modal.Header>
-        <ModalContent>
-         
+        <Modal.Body className="bg-dark">
+          <Form>
+            <Form.Group controlId="formBasicEmail">
+              <Form.Label className="text-white">Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
 
-          <label for="email1" class="form-label">
-            Email:
-          </label>
-          <input
-            type="email"
-            class="form-control"
-            id="email1"
-            placeholder=""
-          ></input>
-                    <label for="email1" class="form-label">
-            Password
-          </label>
-          <input
-            type="email"
-            class="form-control"
-            id="email1"
-            placeholder=""
-          ></input>
-          
-          <button>SIGN IN</button>
-        </ModalContent>
-        <Modal.Footer></Modal.Footer>
+            </Form.Group>
+
+            <Form.Group controlId="formBasicPassword">
+              <Form.Label className="text-white">Password</Form.Label>
+              <Form.Control type="password" placeholder="Password" />
+            </Form.Group>
+            <Form.Group controlId="formBasicCheckbox">
+              <Form.Check type="checkbox" className="text-white" label="Save" />
+            </Form.Group>
+            <Button variant="dark" type="submit">
+              Sign in
+            </Button>
+            <Button variant="dark" type="submit">
+              Sign up
+            </Button>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer className="bg-dark">
+        <Button onClick={this.props.onHide} variant="dark">
+              Cancel
+            </Button>
+        </Modal.Footer>
       </Modal>
-    </div>
-  );
-};
-
-export default LoginModal;
+ 
+    );
+  }
+}

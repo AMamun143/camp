@@ -14,18 +14,43 @@
     height: 10vh;
     position: relative;
     top: 1rem;
-    
+   
     
 }
+
+
 .footer_logo{
     color: white;
     cursor: pointer;
     font-family: 'Gugi', sans-serif;
 }
 
+@media only screen and (max-width: 600px){
+    .footer_logo{
+        position: relative;
+        right: 7rem;
+        bottom: 5rem;
+    }
+    .footernav_menu{
+        position: relative;
+        top: 5rem;
+        overflow: auto;
+        z-index: 20;
+    }
+  
+}
+
+.ca {
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    top: 1.3rem;
+}
+
 .FooterItems {
     background: black;
-    height: 220px;
+    height: 350px;
     display: grid;
     width: 100%;
     grid-template-columns: 10% 40% 40%;
@@ -33,7 +58,7 @@
     align-items: center;
     font-size: 1.2rem;
     position: relative;
-    bottom: 1rem;
+    bottom: 8.1rem;
 }
 
 .pages:hover {
