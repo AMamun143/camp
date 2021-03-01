@@ -6,7 +6,7 @@
     vertical-align: middle;
     position: relative;
     bottom: 7rem;
-    font-family: Big Shoulders Display, sans-serif;
+    font-family: Open Sans, sans-serif;
     letter-spacing: 7px;
     }
 
@@ -14,8 +14,9 @@
 .text {
     color: rgb(223, 210, 37);
     font-size: 2rem;
+    letter-spacing: 10px;
     position: relative;
-    top: 17%;
+    bottom: 1px;
     align-items: center;
 }
 

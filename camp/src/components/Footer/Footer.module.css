@@ -13,7 +13,8 @@
 .wrap {
     height: 10vh;
     position: relative;
-    bottom: 7rem;
+    top: 1rem;
+    
     
 }
 .footer_logo{

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { DataContext } from "../shop/Context";
 import { Link } from "react-router-dom";
-import "../cart/Details.module.css";
-import "../cart/Cart.module.css";
+import styles from "../cart/Cart.css";
 
 export class Cart extends Component {
   static contextType = DataContext;
@@ -17,7 +16,9 @@ export class Cart extends Component {
       return <h2 style={{ textAlign: "center" }}>Nothings Product</h2>;
     } else {
       return (
-        <div className="cart-wrapper">
+        <>
+        <div className="container">
+        <div className="cart_wrapper">
           {cart.map((item) => (
             <div className="details cart" key={item._id}>
               <img src={item.src} alt="" />
@@ -29,13 +30,13 @@ export class Cart extends Component {
 
                 <p>{item.description}</p>
                 <p>{item.content}</p>
-                <div className="amount">
-                  <button className="count" onClick={() => reduction(item._id)}>
+                <div className={styles.amount}>
+                  <button className={styles.count} onClick={() => reduction(item._id)}>
                     {" "}
                     -{" "}
                   </button>
                   <span>{item.count}</span>
-                  <button className="count" onClick={() => increase(item._id)}>
+                  <button className={styles.count} onClick={() => increase(item._id)}>
                     {" "}
                     +{" "}
                   </button>
@@ -51,6 +52,10 @@ export class Cart extends Component {
             <h3>Total: ${total}</h3>
           </div>
         </div>
+        
+        </div>
+    
+        </>
       );
     }
   }

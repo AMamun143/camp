@@ -11,27 +11,33 @@ import {
   Redirect,
   Link,
 } from "react-router-dom";
-import Cart from '../pages/cart/Cart'
 
-
+import Products from "../pages/cart/Products";
+import Cart from "../pages/cart/Cart";
+import Section from "../pages/cart/Section";
+import { DataProvider } from "../pages/shop/Context";
 
 function MainComponent() {
   return (
-    <div>
-      <Router>
-        <HeaderComponent />
+    <DataProvider>
+      <div>
+        <Router>
+          <HeaderComponent />
 
-        <Switch>
-          <Route exact path="/home" component={HomeComponent} />
-          <Route exact path="/about" component={AboutComponent} />
-          <Route exact path="/contact" component={ContactComponent} />
-          
-         
-          <Route exact path='/cart' component={Cart} />
-        </Switch>
-      </Router>
-      <FooterComponent />
-    </div>
+          <Switch>
+            <Route exact path="/home" component={HomeComponent} />
+            <Route exact path="/about" component={AboutComponent} />
+            <Route exact path="/contact" component={ContactComponent} />
+            <Route exact path="/shop" component={Products} />
+           
+          </Switch>
+          <Section />
+          <FooterComponent />
+        </Router>
+
+      
+      </div>
+    </DataProvider>
   );
 }
 

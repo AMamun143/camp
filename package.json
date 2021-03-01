@@ -6,6 +6,7 @@
   "author": "<jerrsiphavong@icloud.com>",
   "license": "MIT",
   "dependencies": {
+    "antd": "^4.13.0",
     "bootstrap": "^4.6.0",
     "react-bootstrap": "^1.4.3",
     "react-redux-form": "^1.16.14",

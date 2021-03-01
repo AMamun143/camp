@@ -4,15 +4,11 @@ import { Button } from "../Navbar/Button.js";
 import "../Navbar/Navbar.css";
 import { Link } from 'react-router-dom';
 import LoginModal from '../../pages/signIn/SignInComponent'
-import {DataContext} from '../../pages/shop/Context'
 
 class Navbar extends Component {
-
-  static contextType = DataContext;
-
   state = { 
     clicked: false,
-    modalOpen: false,
+    modalOpen: false
    }
 
   handleClick = () => {
@@ -27,7 +23,6 @@ class Navbar extends Component {
     })
  }
   render() {
-    const {cart} = this.context;   
     return (
       <>
       <nav className="NavbarItems">
@@ -53,16 +48,11 @@ class Navbar extends Component {
         <Button onClick={this.handleModalOpen} className="user">
         <i class="fas fa-user"></i>
         </Button>
-        <div className="nav-cart">
-        <span>{cart.length}</span>
         <Link to='/cart'>
-         
-        
         <Button className="cart">
         <i class="fas fa-shopping-cart"></i>
         </Button>
         </Link>
-        </div>
       </nav>
       <LoginModal
            modalOpen={this.state.modalOpen}

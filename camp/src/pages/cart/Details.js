@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { DataContext } from "../shop/Context";
 import {Link} from 'react-router-dom'
-import "../cart/Details.module.css";
+import styles from "../cart/Cart.css";
 
 
 export class Details extends Component {
@@ -30,13 +30,13 @@ export class Details extends Component {
         const {product} = this.state;
         const {addCart} = this.context;
         return (
-            <>
+            <div className={styles.details_wrapper}>
                 {
                     product.map(item =>(
                         <div className="details" key={item._id}>
                             <img src={item.src} alt=""/>
-                            <div className="box">
-                                <div className="row">
+                            <div className={styles.box}>
+                                <div className={styles.row}>
                                     <h2>{item.title}</h2>
                                     <span>${item.price}</span>
                                 </div>
@@ -49,7 +49,7 @@ export class Details extends Component {
                         </div>
                     ))
                 }
-            </>
+            </div>
         )
     }
 }
