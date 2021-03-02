@@ -13,6 +13,7 @@
 
 .link_hero:hover {
     text-decoration: none;
+
 }
 
 .header_hero {
@@ -33,10 +34,13 @@
   z-index: 100;
 }
 
+
+
+
 .arrow {
   position: relative;
   color: white;
   top: 50%;
   font-size: 3rem;
-  z-index: 10;
 }
+
