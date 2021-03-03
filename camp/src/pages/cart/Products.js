@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { DataContext } from "../shop/Context";
 import "../cart/Products.css";
 

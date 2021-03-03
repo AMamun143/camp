@@ -1,9 +1,10 @@
-import React from 'react';
-import styles from './AboutComponent.module.css';
-import globalStyles from '../../../src/assets/global-styles/bootstrap.min.module.css';
-import cx from 'classnames';
+import React from "react";
+import styles from "./AboutComponent.module.css";
+import globalStyles from "../../../src/assets/global-styles/bootstrap.min.module.css";
+import cx from "classnames";
 
 function AboutComponent() {
+  
     return (
       <div className="" id={styles.about}>
         <div className={cx(globalStyles.row, globalStyles["h-100"])}>
