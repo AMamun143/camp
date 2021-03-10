@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form, Container } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export class SignInModal extends Component {
   constructor(props) {
@@ -8,24 +8,47 @@ export class SignInModal extends Component {
   }
   render() {
     return (
-  
-        
       <Modal
         {...this.props}
         size="md"
-        
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header  className="bg-dark">
-          <Modal.Title id="contained-modal-title-vcenter" className="text-white">Log In</Modal.Title>
+        <style type="text/css">
+          {`
+              .modal-header{
+                background-color: black;
+                border-top: 2px solid white;
+                border-left: 2px solid white;
+                border-right: 2px solid white;
+              }
+              
+              `}
+        </style>
+        <Modal.Header variant="bg">
+          <Modal.Title
+            id="contained-modal-title-vcenter"
+            className="text-white"
+          >
+            Log In
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="bg-dark">
+        <style type="text/css">
+          {`
+              .modal-body{
+                background-color: black;
+               
+                border-left: 2px solid white;
+                border-right: 2px solid white;
+              }
+              
+              `}
+        </style>
+        <Modal.Body>
           <Form>
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="text-white">Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
-
             </Form.Group>
 
             <Form.Group controlId="formBasicPassword">
@@ -38,18 +61,42 @@ export class SignInModal extends Component {
             <Button variant="dark" type="submit">
               Sign in
             </Button>
+            <style type="text/css">
+              {`
+              .btn-dark{
+                background-color: black;
+                padding-right: 8px;
+                padding-left: 8px;
+                border: none;
+              }
+              .btn-dark:hover{
+                background-color: white;
+                color: black;
+              }
+              `}
+            </style>
             <Button variant="dark" type="submit">
               Sign up
             </Button>
           </Form>
         </Modal.Body>
-        <Modal.Footer className="bg-dark">
-        <Button onClick={this.props.onHide} variant="dark">
-              Cancel
-            </Button>
+        <style type="text/css">
+          {`
+              .modal-footer{
+                background-color: black;
+                border-bottom: 2px solid white;
+                border-left: 2px solid white;
+                border-right: 2px solid white;
+              }
+              
+              `}
+        </style>
+        <Modal.Footer>
+          <Button onClick={this.props.onHide} variant="dark">
+            Cancel
+          </Button>
         </Modal.Footer>
       </Modal>
- 
     );
   }
 }

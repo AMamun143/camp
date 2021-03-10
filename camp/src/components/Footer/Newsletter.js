@@ -1,15 +1,7 @@
 import React, { Component } from "react";
-import {
+import { Form, FormGroup, Label, Input, Col, FormFeedback } from "reactstrap";
 
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Col,
-  FormFeedback,
-} from "reactstrap";
-
-import styles from '../Footer/Newsletter.module.css'
+import styles from "../Footer/Newsletter.module.css";
 
 class Newsletter extends Component {
   constructor(props) {
@@ -30,8 +22,6 @@ class Newsletter extends Component {
     const errors = {
       email: "",
     };
-
-
 
     if (this.state.touched.email && !email.includes("@")) {
       errors.email = "Email should contain a @";
@@ -62,36 +52,36 @@ class Newsletter extends Component {
   }
 
   render() {
-    const errors = this.validate(
-      this.state.email
-    );
+    const errors = this.validate(this.state.email);
     return (
-        <div className={styles.newsletter}>
+      <div className={styles.newsletter}>
         <h2 className={styles.join}>JOIN OUR MAILING LIST</h2>
         <h5 className={styles.secondjoin}>AND NEVER MISS AN UPDATE</h5>
-      <div className={styles.container}>
-            <Form onSubmit={this.handleSubmit}>
-              <FormGroup row>
-                <Col md={12}>
-                  <Input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email"
-                    value={this.state.email}
-                    invalid={errors.email}
-                    onBlur={this.handleBlur("email")}
-                    onChange={this.handleInputChange}
-                  />
-                  <FormFeedback>{errors.email}</FormFeedback>
-                </Col>
-              </FormGroup>
-            </Form>
-          </div>
+        <div className={styles.container}>
+          <Form onSubmit={this.handleSubmit}>
+            <FormGroup row>
+              <Col></Col>
+              <Col xs={5}>
+                <Input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  value={this.state.email}
+                  invalid={errors.email}
+                  onBlur={this.handleBlur("email")}
+                  onChange={this.handleInputChange}
+                />
+              </Col>
+              <FormFeedback>{errors.email}</FormFeedback>
 
-          <div className={styles.subscribe}>Subscribe</div>
-</div>
-     
+              <Col></Col>
+            </FormGroup>
+          </Form>
+        </div>
+
+        <div className={styles.subscribe}>Subscribe</div>
+      </div>
     );
   }
 }
