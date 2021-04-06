@@ -2,6 +2,9 @@
   background-image: url("../../assets/images/campersgrouphome.jpg");
   background-size: cover;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   /* width: 100vw; */
 }
 

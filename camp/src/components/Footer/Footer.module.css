@@ -1,78 +1,70 @@
-
 .footernav_menu {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    justify-content: end;
-    overflow-y: hidden;
-
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  overflow-y: hidden;
 }
 
 .wrap {
-    height: 10vh;
+  height: 10vh;
+  position: relative;
+  top: 1rem;
+}
+
+.footer_logo {
+  color: white;
+  cursor: pointer;
+  font-family: "Gugi", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_logo {
     position: relative;
-    top: 1rem;
-   
-    
-}
-
-
-.footer_logo{
-    color: white;
-    cursor: pointer;
-    font-family: 'Gugi', sans-serif;
-}
-
-@media only screen and (max-width: 600px){
-    .footer_logo{
-        position: relative;
-        right: 7rem;
-        bottom: 5rem;
-    }
-    .footernav_menu{
-        position: relative;
-        top: 5rem;
-        overflow: auto;
-        z-index: 20;
-    }
-  
+    right: 7rem;
+    bottom: 5rem;
+  }
+  .footernav_menu {
+    position: relative;
+    top: 5rem;
+    overflow: auto;
+    z-index: 20;
+  }
 }
 
 .ca {
-    color: white;
-    font-family: 'Gugi', sans-serif;
-    font-size: 2.5rem;
-    position: relative;
-    top: 1.3rem;
+  color: white;
+  font-family: "Gugi", sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.3rem;
 }
 
 .FooterItems {
-    background: black;
-    height: 350px;
-    display: grid;
-    width: 100%;
-    grid-template-columns: 10% 40% 40%;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: relative;
-    bottom: 8.1rem;
+  background: black;
+  height: 350px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10% 40% 40%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 8.1rem;
 }
 
 .pages:hover {
-    background-color: white;
-    color: black;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
 }
 
 .pages {
-    font-family: "BenchNine", sans-serif;
-    text-decoration: none;
-    color: white;
-
+  font-family: "BenchNine", sans-serif;
+  text-decoration: none;
+  color: white;
 }
-

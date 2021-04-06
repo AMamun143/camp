@@ -7,14 +7,12 @@ import TripleImageComponent from './TripleImage/TripleImage.js'
 
 function HomeComponent() {
     return (
-        <div>
+        <>
             <Hero />
             <Promo />
             <NewArrivals />
-
             <TripleImageComponent />
-
-        </div>
+        </>
     )
 }
 

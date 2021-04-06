@@ -1,26 +1,25 @@
-.newsletter{
-    font-family: "BenchNine", sans-serif;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: .25rem;
-    flex-wrap: wrap;
-    
- 
+.newsletter {
+  font-family: "BenchNine", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 0.25rem;
+  flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .subscribe {
-    background: black;
-    color: white;
-    text-decoration: none;
-    border:  white;
-
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: white;
 }
 
-@media only screen and (max-width: 200px){
-.newsletter, .subscribe{
-   display: none;
-}
+@media only screen and (max-width: 200px) {
+  .newsletter,
+  .subscribe {
+    display: none;
+  }
 }
