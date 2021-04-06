@@ -1,24 +1,29 @@
+.formcontrolBlack {
+  background-color: black;
+}
 
-  .formcontrolBlack {
-    background-color: black;
-  }
+#sendBtn {
+  background-color: black;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+  float: right;
+  padding-right: 40px;
+  padding-left: 40px;
+}
 
-  #sendBtn {
-    background-color: black;
-    color: white;
-    outline-style: solid;
-    outline-color: white;
-    outline-width: 1px;
-    float: right;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
+.contactLinks {
+  color: white;
+  text-decoration: none;
+}
 
-  .contactLinks {
-    color: white;
-    text-decoration: none;
-  }
+.contactLinks:hover {
+  color: white;
+  text-decoration: none;
+}
 
+<<<<<<< HEAD
   .contactLinks:hover {
     color: white;
     text-decoration: none;
@@ -33,4 +38,14 @@
     width: 100vw;
     background: black;
   }
+=======
+body {
+  background-color: black;
+}
+>>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
 
+#contactPage {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}

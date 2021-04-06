@@ -4,6 +4,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
+<<<<<<< HEAD
   justify-content: end;
   overflow-y: hidden;
 }
@@ -67,4 +68,54 @@
   font-family: "BenchNine", sans-serif;
   text-decoration: none;
   color: white;
+=======
+  justify-content: center;
+  overflow-y: hidden;
+}
+.ca {
+  color: white;
+  font-family: "Gugi", sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  top: 1.5rem;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  height: 10vh;
+  position: relative;
+  top: 1rem;
+}
+
+.flogo {
+  color: white;
+  cursor: pointer;
+  font-family: "Gugi", sans-serif;
+  position: relative;
+  left: 4rem;
+}
+.pages {
+  text-decoration: none;
+  color: white;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.pages:hover {
+  text-decoration: none;
+  background: white;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .flogo {
+    position: relative;
+    left: 2rem;
+    color: white;
+  }
+>>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
 }

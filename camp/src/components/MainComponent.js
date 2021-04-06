@@ -29,13 +29,10 @@ function MainComponent() {
             <Route exact path="/about" component={AboutComponent} />
             <Route exact path="/contact" component={ContactComponent} />
             <Route exact path="/shop" component={Products} />
-           
           </Switch>
           <Section />
           <FooterComponent />
         </Router>
-
-      
       </div>
     </DataProvider>
   );
