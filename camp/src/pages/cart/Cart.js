@@ -11,16 +11,11 @@ export class Cart extends Component {
   }
 
   render() {
-    const btn = { backgroundColor: "black", color: "white" };
     const { cart, increase, reduction, removeProduct, total } = this.context;
     if (cart.length === 0) {
       return (
         <h2 className="nothing" style={{ textAlign: "center" }}>
-<<<<<<< HEAD
           Your cart is empty. Start shopping and let the adventure begin...
-=======
-          Nothings Product
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
         </h2>
       );
     } else {
@@ -36,36 +31,19 @@ export class Cart extends Component {
                       <h2>{item.title}</h2>
                       <span>${item.price * item.count}</span>
                     </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
                     <p>{item.description}</p>
                     <p>color: {item.colors}</p>
                     <div className={styles.amount}>
                       <button
-<<<<<<< HEAD
-=======
-                        bsStyle=""
-                        bsClass="btn"
-                        style={btn}
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
                         className={styles.count}
                         onClick={() => reduction(item._id)}
                       >
                         {" "}
                         -{" "}
                       </button>
-<<<<<<< HEAD
-                      <span id="itemCount">{item.count}</span>
+                      <span id="item">{item.count}</span>
                       <button
-=======
-                      <span className="item-count">{item.count}</span>
-                      <button
-                        bsStyle=""
-                        bsClass="btn"
-                        style={btn}
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
                         className={styles.count}
                         onClick={() => increase(item._id)}
                       >

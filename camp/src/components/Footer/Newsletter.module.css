@@ -5,13 +5,10 @@
   text-align: center;
   color: white;
   position: relative;
-<<<<<<< HEAD
   top: 0.25rem;
   flex-wrap: wrap;
   margin-left: auto;
-=======
-  bottom: 3rem;
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
+  width: 600px;
 }
 
 .subscribe {
@@ -19,7 +16,6 @@
   color: white;
   text-decoration: none;
   border: white;
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 200px) {
@@ -27,6 +23,4 @@
   .subscribe {
     display: none;
   }
-=======
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
 }

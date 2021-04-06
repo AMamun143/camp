@@ -4,7 +4,6 @@
 }
 section {
   background: black;
-<<<<<<< HEAD
 }
 .nothing {
   height: 100vh;
@@ -134,8 +133,6 @@ section .cart {
   padding: 10px 25px;
   display: inline-block;
 }
-=======
-}
 
 .nothing {
   height: 100vh;
@@ -263,4 +260,7 @@ section .cart {
   padding: 10px 25px;
   display: inline-block;
 }
->>>>>>> 18c5692a1506fe8c6886c3a87bcfedad176a176a
+#item {
+  color: white;
+  margin: 25px;
+}
